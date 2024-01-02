@@ -1,0 +1,25 @@
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%; /* Make the sidebar full height */
+  width: 200px; /* Set the fixed width for the sidebar */
+  background-color: #333;
+  color: white;
+  font-family: "JetBrains Mono";
+}
+
+.content {
+  margin-top: 175px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 1rem
+}
+
+.sidebar li {
+  margin-top:  30px; /* Increase spacing between list items */
+  text-align: center; /* Center text horizontally */
+}

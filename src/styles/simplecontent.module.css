@@ -1,0 +1,27 @@
+.title {
+  font-size: 1.5em;
+  margin-bottom: 3rem;
+  text-decoration: underline;
+  color: #505750;
+}
+
+.container {
+  font-family: "JetBrains Mono";
+  margin: 10rem 0rem 0rem 0rem;
+}
+
+.description_outline {
+  border: 1px solid black;
+  margin-right: 10rem;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally within the container */
+  border: 1px solid black;
+  padding: 1rem 1rem 5rem 1rem; /* Adjust as needed */
+}
+
+.description {
+  font-size: 0.9em;
+  margin: 5%;
+}
