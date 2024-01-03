@@ -4,7 +4,8 @@
   display: flex;
   flex-direction: column;
   align-items: center; /* Center horizontally within the container */
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;  
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset; 
+  justify-content:space-around; 
 }
 .title {
   margin-top: 2rem;
@@ -14,4 +15,14 @@
 .description {
   font-size: 0.8em;
   margin: 10%;
+}
+
+.projectButton {
+  border: none;
+  background-color: #505750;
+  color: white;
+  padding: 0.5rem 1.8rem 0.5rem 1.8rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-family: "JetBrains Mono";
 }

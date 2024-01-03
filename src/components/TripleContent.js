@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from '@/styles/triplecontent.module.css';
 import Project from './Project';
+import projectData from '@/public/ProjectData';
 
 const TripleContent = () => {
   return (
@@ -9,9 +10,14 @@ const TripleContent = () => {
         PROJECTS
       </div>
       <div className={styles.split}>
-        <Project/>
-        <Project/>
-        <Project/>
+        {projectData.map((data, index) => 
+          <Project
+            key={index}
+            title={data.title}
+            description={data.description}
+            link={data.link}
+          />
+        )}
       </div>
     </div>
   );
