@@ -1,0 +1,37 @@
+.centerDot {
+  width: 5px;
+  height: 5px;
+  background-color: black;
+}
+
+.circleOutline {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+}
+
+.centerDot,
+.circleOutline {
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: 100;
+  pointer-events: none;
+}
+
+/* customcursor.module.css */
+.cursor {
+  position: fixed;
+  pointer-events: auto; /* Change 'none' to 'auto' */
+  z-index: 10;
+}
+
+.whiteColor .centerDot {
+  background-color: #fff;
+}
+
+.whiteColor .circleOutline {
+  border-color: #fff;
+}

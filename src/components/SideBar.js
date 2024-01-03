@@ -3,7 +3,7 @@ import styles from '@/styles/sidebar.module.css';
 
 const SideBar = () => {
 
-  const Items = ['Info', 'Projects', 'Connect'];
+  const Items = ['Info', 'Projects', 'Contact Me'];
 
   return (
     <div className={styles.sidebar}>
