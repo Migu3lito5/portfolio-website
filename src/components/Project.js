@@ -8,7 +8,9 @@ const Project = ({title, description, link}) => {
     <div className={styles.container}>
       <div className={styles.title}>{title}</div>
       <div className={styles.description}>{description}</div>
+      <a href={link} target='_blank'>
       <button className={styles.projectButton}>LEARN MORE</button>
+      </a>
     </div>
   );
 };

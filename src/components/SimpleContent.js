@@ -10,16 +10,16 @@ const SimpleContent = () => {
       <div className={styles.description_outline}>
         <div className={styles.description}>
           <p>
-          🚀 Hello there! I'm Miguel Angel Francisco, a recent Computer Science graduate from California State University, Monterey Bay (CSUMB), and I'm on a thrilling journey through the world of technology.
+            
+👋 Greetings! I'm Miguel Angel Francisco, a recent Computer Science graduate from CSUMB. Being a first-generation student, obtaining my degree signifies more than personal achievement—it reflects perseverance and dedication.
+<br/> <br/>
+💻 Armed with a solid foundation in Computer Science, my keen interest in technology motivates me to translate academic knowledge into practical applications. The ever-evolving tech landscape intrigues me, and I'm eager to contribute to innovative projects and gain hands-on experiences.
 <br/><br/>
-🎓 As a first-generation student, earning my degree is not just a personal achievement but a testament to the power of perseverance. With a solid foundation in Computer Science, I've cultivated a natural curiosity that drives my passion for continuous learning.
+🚀 Beyond coding, each project presents an opportunity to explore uncharted territories and contribute meaningfully to the tech sector. Whether solving intricate problems or embracing emerging technologies, I find fulfillment in pushing boundaries.
 <br/><br/>
-🌐 The dynamic landscape of technology fascinates me, and I'm eager to translate my academic knowledge into innovative projects and hands-on experiences. My journey has equipped me not only with technical skills but also with resilience and determination—qualities I bring to every coding challenge.
+💡 Actively seeking opportunities to apply my skills, contribute to impactful projects, and connect with like-minded professionals. Let's collaborate and uncover the boundless possibilities within the world of technology!
 <br/><br/>
-💡 Beyond the code, I see each project as an opportunity to explore new horizons and contribute meaningfully to the tech world. Whether it's solving complex problems or embracing emerging technologies, I thrive on the excitement of pushing boundaries.
-<br/><br/>
-🚧 Ready to embark on the next adventure, I'm actively seeking opportunities to apply my skills, contribute to impactful projects, and connect with like-minded individuals. Let's collaborate and uncover the boundless possibilities that lie ahead in the world of technology!
-<br/><br/>
+🔍Excited for the next phase in my career—let's discuss potential collaborations and make sure it's a perfect fit for both of us!
           </p>
         </div>
       </div>

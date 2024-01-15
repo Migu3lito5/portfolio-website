@@ -12,7 +12,8 @@
 
 .split {
   display: flex;
+  flex: 1fr 1fr 1fr;
   flex-direction: row;
   justify-content: space-evenly;
-  gap: 5rem;
+  gap: 2rem;
 }
