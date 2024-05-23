@@ -1,4 +1,10 @@
 .pageContent {
-  margin-top: 111px;
+  margin-top: 200px;
   margin-left: 300px;
+}
+
+@media (max-width: 900px) {
+  .pageContent {
+    margin: 111px 0 0 1rem;
+  }
 }

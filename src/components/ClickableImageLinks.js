@@ -11,7 +11,6 @@ export default function ClickableImageLinks({image, link, title, width, height})
           width={width}
           height={title}
         />
-      <label>{title}</label>
       </a>
     </div>
   )

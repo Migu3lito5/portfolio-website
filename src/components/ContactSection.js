@@ -1,11 +1,11 @@
-import React from 'react';
+import React, {Link} from 'react';
 import styles from '@/styles/contactsection.module.css';
 import ContactForm from './ContactForm';
 import LinkedImage from '@/public/images/linkedin.png';
 import GithubImage from '@/public/images/github.png';
-import ResumeImage from '@/public/images/resume.png';
 import InstagramImage from '@/public/images/instagram.png';
 import ClickableImageLinks from './ClickableImageLinks';
+
 
 const ContactSection = () => {
   return (

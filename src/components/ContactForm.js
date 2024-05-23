@@ -1,22 +1,19 @@
 "use client"
-import React from 'react';
-import styles from "@/styles/contactform.module.css"
+import React, { useState } from 'react';
+import styles from '@/styles/contactform.module.css';
 
+
+//re_CoaYcz1Z_AY5kfEMhCeZtEprTX1GnjBJ7
 const ContactForm = () => {
-
-  const [textValue, setTextValue] = React.useState('');
-  const [inputValues, setInputValues] = React.useState({
-    personName: "",
-    personEmail: "",
+  const [formValues, setFormValues] = useState({
+    personName: '',
+    personEmail: '',
+    message: '', // Updated variable name
   });
-  
-   const handleTextChange = (e) => {
-      setTextValue(e.target.value);
-    };
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
-    setInputValues((prevValues) => ({
+    setFormValues((prevValues) => ({
       ...prevValues,
       [name]: value,
     }));
@@ -30,35 +27,35 @@ const ContactForm = () => {
           <input
             type="text"
             id="personName"
-            name='personName'
-            value={inputValues.personName}
+            name="personName"
+            value={formValues.personName}
             onChange={handleInputChange}
             className={styles.underline_input}
           />
-          <label htmlFor="textInput">NAME</label>
+          <label htmlFor="personName">NAME</label>
           <input
             type="text"
             id="personEmail"
-            name='personEmail'
-            value={inputValues.personEmail}
+            name="personEmail"
+            value={formValues.personEmail}
             onChange={handleInputChange}
             className={styles.underline_input}
           />
-          <label htmlFor="textInput">EMAIL</label>
+          <label htmlFor="personEmail">EMAIL</label>
         </div>
         <button className={styles.formButton}>SEND</button>
       </div>
       <div className={styles.right}>
         <textarea
           id="textArea"
-          value={textValue}
-          onChange={handleTextChange}
-          placeholder='MESSAGE'
+          value={formValues.message}
+          onChange={(e) => setFormValues({ ...formValues, message: e.target.value })}
+          placeholder="MESSAGE"
+          className={styles.textarea}
           rows={20} 
           cols={50} 
-          style={{ resize: 'none',  border: "1px solid black" }} 
         />
-    </div>
+      </div>
     </div>
   );
 };

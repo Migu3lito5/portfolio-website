@@ -5,7 +5,7 @@
   height: 100%; /* Make the sidebar full height */
   width: 200px; /* Set the fixed width for the sidebar */
   background-color: #333;
-  color: white;
+  color: #7db18a;
   font-family: "JetBrains Mono";
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
@@ -23,20 +23,21 @@
 .sidebar li {
   margin-top:  3rem; 
   text-align: center;
-  transition: 0.1s ease-in;
+  transition: 0.3s ease-in;
 }
 
 .sidebar li:hover {
-  color: #7db18a;
   font-size: 1.2rem;
+  transition: 0.3s ease-out;
+}
+.active {
+      /* Add styling for the active link here */
+  color: white;
+  background-color: #333;
 }
 
-
-
-
-
-.active {
-  /* Add styling for the active link here */
-  color: #7db18a;
-  background-color: #333;
+@media (max-width: 900px) {
+  .sidebar {
+    display: none;
+  }
 }

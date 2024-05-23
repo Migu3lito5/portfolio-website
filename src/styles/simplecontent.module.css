@@ -1,27 +1,87 @@
-.title {
-  font-size: 1.5em;
-  margin-bottom: 3rem;
-  text-decoration: underline;
-  color: #505750;
-}
-
 .container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+  height: 600px;
+  position: relative;
   font-family: "JetBrains Mono";
-  margin: 10rem 10rem 15rem 0rem;
+  margin-left: -10rem;
 }
 
-.description_outline {
-  border: 1px solid black;
-  height: 50vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Center horizontally within the container */
-  border: 1px solid black;
-  padding: 1rem 1rem 5rem 1rem; /* Adjust as needed */
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+.main_square {
+  position: absolute;
+  background-color:#333;
+  height: 100%;
+  width: 900px;
+  margin-left: 10rem;
 }
+
+.main_square p {
+  margin-left: 4rem;
+  letter-spacing: 2px;
+}
+
+.title {
+  text-align: center;
+  color: #95bd99;
+  font-weight:600;
+  font-size: 2.5em;
+  margin-bottom: 0;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  padding-bottom: 10px;
+  width: 200px;
+}
+
 
 .description {
   font-size: 0.9em;
-  margin: 7%;
+  margin: 5rem 7rem 0 4rem;
 }
+
+.footer {
+  font-size: 0.8em;
+  display: flex;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+
+.shadow_square {
+  background-color: #424242;
+  height: 100%;
+  width: 900px;
+}
+
+.shadow_right {
+  position: absolute;
+  background-color: #1e1e1e;
+  height: 100%;
+  width: 3.5rem;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  border-left: 1px solid white;
+}
+
+.projectButton {
+  border: none;
+  background-color: #505750;
+  opacity: 1;
+  color: white;
+  padding: 0.9rem 1.8rem 0.9rem 1.8rem; 
+  font-family: "JetBrains Mono";
+  margin-left: 4rem;
+  margin-top: 5rem;
+  transition: background 2s;
+}
+
+.projectButton:hover {
+  color: #505750;
+  background-color: white;
+  border-radius: 4px;
+  transform: background 2s;
+}
+

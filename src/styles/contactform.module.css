@@ -60,3 +60,22 @@
   margin: 5%;
 
 }
+
+.right textarea {
+  resize: none;
+  border: 1px solid black;
+  columns: 50;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    max-width: auto;
+    margin-left: 4rem;
+  }
+
+  .container textarea {
+    align-self: center;
+  }
+}

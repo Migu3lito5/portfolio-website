@@ -8,7 +8,6 @@ import PageContent from '@/components/PageContent';
 export default function Home() {
   return (
     <div>
-      <CustomCursor />
       <Header
         title={"Miguel A. Francisco"}
         desc="Software Engineer | Comp. Sci. Graduate"
