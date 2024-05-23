@@ -6,19 +6,12 @@ import projectData from '@/public/ProjectData';
 const TripleContent = () => {
   return (
     <div className={styles.container}>
-      <div className={styles.title}>
-        PROJECTS
-      </div>
-      <div className={styles.split}>
-        {projectData.map((data, index) => 
-          <Project
-            key={index}
-            title={data.title}
-            description={data.description}
-            link={data.link}
-          />
-        )}
-      </div>
+        <Project
+            key={0}
+            title={projectData[0].title}
+            description={projectData[0].description}
+            link={projectData[0].link}
+        />
     </div>
   );
 };
