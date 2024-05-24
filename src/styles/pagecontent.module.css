@@ -1,6 +1,8 @@
 .pageContent {
   margin-top: 200px;
-  margin-left: 300px;
+  margin-left: 200px;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (max-width: 900px) {

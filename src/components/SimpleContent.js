@@ -3,6 +3,7 @@ import styles from '@/styles/simplecontent.module.css';
 import LinkedImage from '@/public/images/linkedin.png';
 import GithubImage from '@/public/images/github.png';
 import InstagramImage from '@/public/images/instagram.png';
+import ResumeLogo from '@/public/images/resume-logo.png';
 import ClickableImageLinks from './ClickableImageLinks';
 
 const SimpleContent = ({title, description}) => {
@@ -37,6 +38,13 @@ const SimpleContent = ({title, description}) => {
           image={InstagramImage}
           link={"https://www.instagram.com/migu3lito_0/"}
           title={"INSTAGRAM"}
+          width={35}
+          height={35}
+        />
+        <ClickableImageLinks
+          image={ResumeLogo}
+          link={ResumeLogo}
+          title={"Resume"}
           width={35}
           height={35}
         />

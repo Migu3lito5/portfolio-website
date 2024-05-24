@@ -12,7 +12,7 @@ const CustomCursor = () => {
     const handleMouseMove = (e) => {
       const { clientX: mouseX, clientY: mouseY } = e;
 
-      setCursorPosition({ x: mouseX, y: mouseY - 157});
+      setCursorPosition({ x: mouseX, y: mouseY });
     };
 
     window.addEventListener('mousemove', handleMouseMove);

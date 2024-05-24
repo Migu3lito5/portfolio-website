@@ -12,7 +12,7 @@ const projectData = [
   {
     title: "Film Metering App",
     description: "In the initial phases of development, the idea is a straightforward concept. \n\n The application is designed to simplify film photography metering, allowing users to efficiently document exposure details. Those being things such as aperture, ISO, shutter speed, and a description of the exposure taken. ",
-    link: "test",
+    link: "https://github.com/Migu3lito5/film-metering-app",
   },
 ]
 

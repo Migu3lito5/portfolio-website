@@ -27,22 +27,10 @@ const SideBar = () => {
               to="projects"
               spy={true}
               smooth={true}
-              offset={-120}
-              duration={1000}
-            >
-              Projects
-            </Link>
-          </li>
-          <li>
-            <Link
-              activeClass={styles.active}
-              to="contactme"
-              spy={true}
-              smooth={true}
               offset={-110}
               duration={1000}
             >
-              Contact Me
+              Projects
             </Link>
           </li>
         </ul>
