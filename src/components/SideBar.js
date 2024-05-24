@@ -27,7 +27,7 @@ const SideBar = () => {
               to="projects"
               spy={true}
               smooth={true}
-              offset={-120}
+              offset={-110}
               duration={1000}
             >
               Projects

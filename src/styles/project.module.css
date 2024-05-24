@@ -1,7 +1,9 @@
 .container {
-  height: 350px;
-  width: 650px;
+  min-height: 325px;
+  width: 600px;
+  max-width: 650px;
   position: relative;
+  font-family: "JetBrains Mono";
 }
 
 .card {
@@ -24,7 +26,7 @@
 
 .title {
   margin-top: 0.3rem;
-  font-size: 1.5em;
+  font-size: 1.4em;
   letter-spacing: 1px;
   color: #95bd99;
   font-weight: bold;
@@ -32,10 +34,11 @@
 
 .desc{
   font-size: 0.8em;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   color: white;
-  font-weight: 500;
-  margin-top: 1rem;
+  font-weight: 200;
+  margin-top: 0rem;
+  justify-content: center;
 }
 
 .card_shadow {
