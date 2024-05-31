@@ -8,9 +8,8 @@ const TripleContent = () => {
     <div className={styles.container}>
       <div className={styles.grid}>
         {projectData.map((data, index) => 
-        <div className={styles.grid_item}>
+        <div className={styles.grid_item} key={index}>
           <Project
-            key={index}
             title={data.title}
             description={data.description}
             link={data.link}
