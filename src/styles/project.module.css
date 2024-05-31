@@ -17,6 +17,7 @@
   z-index: 2;
   opacity: 1;
   border: white 1px solid;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .card p {
@@ -52,6 +53,7 @@
   left: 0;
   z-index: 1;
   background-color: #333;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .projectButton {
