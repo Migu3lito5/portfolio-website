@@ -1,19 +1,22 @@
 .container {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  color: white;
-  height: 600px;
   position: relative;
+  display: flex;
+  justify-content: center;
   font-family: "JetBrains Mono";
+  height:  600px;
 }
 
 .main_square {
+  display: flex;
+  flex-direction: column;
   position: absolute;
-  background-color:#333;
   height: 100%;
   width: 900px;
-  margin-left: 10rem;
+  margin-left: 4rem;
+  background-color:#333;
+  color: white;
+  border-left: 1px solid white; 
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
 .main_square p {
@@ -21,48 +24,53 @@
   letter-spacing: 2px;
 }
 
+
 .title {
   text-align: center;
   color: #95bd99;
   font-weight:600;
   font-size: 2.5em;
-  margin-bottom: 0;
   border-bottom: 1px solid rgb(255, 255, 255);
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   width: 200px;
+  margin-left: 5rem;
+  margin-top: 4rem;
 }
+
 
 
 .description {
-  font-size: 0.9em;
-  margin: 5rem 7rem 0 4rem;
+  font-size: 0.8em;
+  margin-right: 4rem;
+  margin-bottom: 10%;
+
 }
 
 .footer {
-  font-size: 0.8em;
   display: flex;
-  margin-top: 5rem;
-  display: flex;
-  justify-content: flex-start;
   align-items: center;
-  gap: 20px;
+  font-size: 0.7em;
+  gap: 15px;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 8%;
 }
 
 .shadow_square {
-  background-color: #424242;
   height: 100%;
   width: 900px;
+  margin-right: 4rem;
+  background-color: #424242;
+  box-sizing: border-box;
 }
 
 .shadow_right {
-  position: absolute;
-  background-color: #1e1e1e;
+  width: 50px;
+  background-color: red;
   height: 100%;
-  width: 3.5rem;
-  top: 0;
-  bottom: 0;
-  right: 0;
+  background-color: #1e1e1e;
   border-left: 1px solid white;
+  z-index: 1;
 }
 
 .projectButton {
@@ -70,10 +78,9 @@
   background-color: #505750;
   opacity: 1;
   color: white;
-  padding: 0.9rem 1.8rem 0.9rem 1.8rem; 
+  padding: 0.7rem 1.8rem 0.7rem 1.8rem; 
   font-family: "JetBrains Mono";
   margin-left: 4rem;
-  margin-top: 5rem;
   transition: background 2s;
 }
 
@@ -82,5 +89,14 @@
   background-color: white;
   border-radius: 4px;
   transform: background 2s;
+}
+
+@media (max-width: 1300px) {
+  .main_square {
+    width: 80%;
+  }
+  .shadow_square {
+    width: 80%
+  }
 }
 
