@@ -15,6 +15,9 @@ const PageContent = () => {
       <Element name="projects">
         <TripleContent />
       </Element>
+      <Element name="contact">
+        <TripleContent />
+      </Element>
     </div>
   );
 };

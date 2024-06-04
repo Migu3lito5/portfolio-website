@@ -4,6 +4,7 @@ import { Link, animateScroll} from 'react-scroll';
 import styles from '@/styles/sidebar.module.css';
 import { HiHome } from "react-icons/hi";
 import { MdOutlineWork } from "react-icons/md";
+import { IoMail } from "react-icons/io5";
 
 const SideBar = () => {
   useEffect(() => window.scrollTo({ top: 2}), []);
@@ -38,6 +39,20 @@ const SideBar = () => {
              >
               <MdOutlineWork className={styles.icon} />
               Projects
+            </Link>
+          </li>
+          <li>
+            <Link
+              className={styles.linkContainer}
+              activeClass={styles.active}
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-110}
+              duration={1000}
+             >
+              <IoMail className={styles.icon} />
+              Contact
             </Link>
           </li>
         </ul>
