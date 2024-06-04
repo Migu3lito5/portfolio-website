@@ -16,7 +16,6 @@ const SimpleContent = ({title, description}) => {
         <div className={styles.body}>
           <p className={styles.description}>I'm an aspiring software engineer eager to grow in my career. With a curious mind and a passion for learning, I'm always seeking new challenges. Check out some of my projects below, and feel free to reach out.</p>
           <button className={styles.projectButton}>Get in Touch</button>
-          <div className={styles.shadow_right}></div>
         </div>
         <div className={styles.footer}>
           <p>I'd love to connect! - </p>
@@ -50,10 +49,11 @@ const SimpleContent = ({title, description}) => {
         />
         </div>
       </div>
-      <div className={styles.shadow_square}></div>
-      
+      <div className={styles.shadow_square}></div> 
+      <div className={styles.shadow_right}></div>     
     </div>
   )
 };
 
 export default SimpleContent;
+
