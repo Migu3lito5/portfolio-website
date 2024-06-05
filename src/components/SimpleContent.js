@@ -34,13 +34,6 @@ const SimpleContent = ({title, description}) => {
           height={35}
         />
         <ClickableImageLinks
-          image={InstagramImage}
-          link={"https://www.instagram.com/migu3lito_0/"}
-          title={"INSTAGRAM"}
-          width={35}
-          height={35}
-        />
-        <ClickableImageLinks
           image={ResumeLogo}
           link={ResumeLogo}
           title={"Resume"}

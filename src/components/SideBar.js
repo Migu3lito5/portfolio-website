@@ -48,7 +48,7 @@ const SideBar = () => {
               to="contact"
               spy={true}
               smooth={true}
-              offset={-150}
+              offset={-120}
               duration={1000}
              >
               <IoMail className={styles.icon} />

@@ -34,6 +34,24 @@
   cursor:text;
   margin-bottom: 1rem;
   resize: none;
+  font-size: 0.8em;
+}
+
+.projectButton {
+  border: none;
+  background-color: #505750;
+  color: white;
+  padding: 0.3rem 1.5rem 0.3rem 1.5rem; 
+  font-family: "JetBrains Mono";
+  transition: background 2s;
+  margin-top: 1rem;
+}
+
+.projectButton:hover {
+  color: #505750;
+  background-color: white;
+  border-radius: 4px;
+  transform: background 2s;
 }
 
 

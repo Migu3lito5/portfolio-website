@@ -19,7 +19,7 @@ const Form = () => {
         <label className={styles.descriptor}>message: </label>
         <textarea rows={10}></textarea>
       </div>
-
+      <button className={styles.projectButton}>Send</button>
     </div>
   );
 };

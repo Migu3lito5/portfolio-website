@@ -4,7 +4,7 @@
   justify-content: center;
   font-family: "JetBrains Mono";
   height:  600px;
-  margin-bottom: 10rem;
+  margin-bottom: 15rem;
 }
 
 .main {
@@ -39,14 +39,31 @@
 
 .side {
   display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: space-evenly;
   width: 400px;
   background-color: #1e1e1e;
+  letter-spacing: 2px;
+}
+
+.side p {
+  margin-left: 4rem;
+  font-size: 0.7em;
+}
+
+
+.side img {
+  align-self: center;
+  border: 1px solid white;
+  cursor: pointer;
 }
 
 .form {
   margin-left: 4rem;
   margin-right: 5rem;
 }
+
 
 @media (max-width: 1200px) {
   .side {
