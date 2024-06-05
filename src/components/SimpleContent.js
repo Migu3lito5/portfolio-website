@@ -1,12 +1,17 @@
-import React from 'react';
+import React, {useRef} from 'react';
 import styles from '@/styles/simplecontent.module.css';
 import LinkedImage from '@/public/images/linkedin.png';
 import GithubImage from '@/public/images/github.png';
-import InstagramImage from '@/public/images/instagram.png';
 import ResumeLogo from '@/public/images/resume-logo.png';
 import ClickableImageLinks from './ClickableImageLinks';
+import UsePopup from '@/components/UsePopup';
+import Popup from '@/components/Popup';
 
 const SimpleContent = ({title, description}) => {
+
+  const [isPopupVisible, showPopup] = UsePopup(2000);
+  const buttonRef = useRef(null);
+
   return (
     <div className={styles.container}>
       <div className={styles.main_square}>
@@ -15,7 +20,13 @@ const SimpleContent = ({title, description}) => {
         </div>
         <div className={styles.body}>
           <p className={styles.description}>I'm an aspiring software engineer eager to grow in my career. With a curious mind and a passion for learning, I'm always seeking new challenges. Check out some of my projects below, and feel free to reach out.</p>
-          <button className={styles.projectButton}>Get in Touch</button>
+          <button ref={buttonRef} className={styles.projectButton} onClick={() => {
+              showPopup();
+              navigator.clipboard.writeText('mfranc4594@gmail.com');
+              }}>
+              Get in Touch
+          </button>
+          {isPopupVisible && <Popup parentRef={buttonRef} text={"email copied!"}/>}
         </div>
         <div className={styles.footer}>
           <p>I'd love to connect! - </p>

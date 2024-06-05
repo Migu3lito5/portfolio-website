@@ -6,6 +6,7 @@ import TripleContent from '@/components/TripleContent';
 import styles from '@/styles/pagecontent.module.css';
 import CustomCursor from './CustomCursor';
 import Contact from '@/components/Contact';
+import Popup from '@/components/Popup';
 
 const PageContent = () => {
   return (

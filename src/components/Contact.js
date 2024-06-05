@@ -20,7 +20,7 @@ const Contact = () => {
         </div>
       </div>
       <div className={styles.side}>
-        <p>email: migufran4594@gmail.com</p>
+        <p>email: mfranc4594@gmail.com</p>
         <ClickableImageLinks 
           image={Photo}
           link={"https://www.instagram.com/migu3lito_0/"}
