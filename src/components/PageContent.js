@@ -5,6 +5,7 @@ import SimpleContent from '@/components/SimpleContent';
 import TripleContent from '@/components/TripleContent';
 import styles from '@/styles/pagecontent.module.css';
 import CustomCursor from './CustomCursor';
+import Contact from '@/components/Contact';
 
 const PageContent = () => {
   return (
@@ -16,7 +17,7 @@ const PageContent = () => {
         <TripleContent />
       </Element>
       <Element name="contact">
-        <TripleContent />
+        <Contact />
       </Element>
     </div>
   );

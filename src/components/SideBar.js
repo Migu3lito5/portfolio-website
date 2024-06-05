@@ -34,7 +34,7 @@ const SideBar = () => {
               to="projects"
               spy={true}
               smooth={true}
-              offset={-110}
+              offset={-100}
               duration={1000}
              >
               <MdOutlineWork className={styles.icon} />
@@ -48,7 +48,7 @@ const SideBar = () => {
               to="contact"
               spy={true}
               smooth={true}
-              offset={-110}
+              offset={-150}
               duration={1000}
              >
               <IoMail className={styles.icon} />

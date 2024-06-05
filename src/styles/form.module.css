@@ -1,0 +1,39 @@
+.input_container {
+  display: flex;
+  flex-direction: column;
+  font-weight: 200;
+}
+
+
+.descriptor {
+  font-size: 0.7em;
+  letter-spacing: 2px;
+  padding-bottom: 5px;
+}
+
+.input_container input {
+  width: 200px;
+  height: 25px;
+  background-color: #525252;
+  font-family: "JetBrains Mono";
+  letter-spacing: 2px;
+  border: none;
+  color: white;
+  outline: none;
+  cursor:text;
+  margin-bottom: 1rem;
+}
+
+.input_container textarea {
+  background-color: #525252;
+  font-family: "JetBrains Mono";
+  letter-spacing: 2px;
+  border: none;
+  color: white;
+  outline: none;
+  cursor:text;
+  margin-bottom: 1rem;
+  resize: none;
+}
+
+

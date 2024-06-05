@@ -1,0 +1,55 @@
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font-family: "JetBrains Mono";
+  height:  600px;
+  margin-bottom: 10rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  background-color:#333;
+  color: white;
+  border-right: 1px solid white;
+}
+
+.main p  {
+  margin-left: 4rem;
+  letter-spacing: 2px;
+}
+
+.title {
+  text-align: center;
+  color: #95bd99;
+  font-weight:600;
+  font-size: 1.8em;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  padding-bottom: 5px;
+  width: 230px;
+}
+
+
+.intro {
+  font-size: 0.7em;
+  margin-bottom: 2rem;
+}
+
+.side {
+  display: flex;
+  width: 400px;
+  background-color: #1e1e1e;
+}
+
+.form {
+  margin-left: 4rem;
+  margin-right: 5rem;
+}
+
+@media (max-width: 1200px) {
+  .side {
+    display:none;
+  }
+}
