@@ -6,6 +6,7 @@ import ResumeLogo from '@/public/images/resume-logo.png';
 import ClickableImageLinks from './ClickableImageLinks';
 import UsePopup from '@/components/UsePopup';
 import Popup from '@/components/Popup';
+import Link from 'next/link';
 
 const SimpleContent = ({title, description}) => {
 
@@ -46,8 +47,8 @@ const SimpleContent = ({title, description}) => {
         />
         <ClickableImageLinks
           image={ResumeLogo}
-          link={ResumeLogo}
-          title={"Resume"}
+          link={"ResumeLogo"}
+          title={"/My_Resue.pdf"}
           width={35}
           height={35}
         />

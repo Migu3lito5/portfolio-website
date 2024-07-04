@@ -10,7 +10,7 @@
 }
 
 .content {
-  margin: 175px 10% 0 10%;
+  margin: 150px 10% 0 10%;
 }
 
 .sidebar ul {
@@ -27,7 +27,7 @@
   font-size: 0.8em;
   margin-top: 2rem;
   color: #95bd99;
-  border-radius: 10px;
+  border-radius: 5px;
   transition: 0.5s ease-in;
 }
 
