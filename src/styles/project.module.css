@@ -1,7 +1,6 @@
 .container {
   min-height: 325px;
   width: 600px;
-  max-width: 650px;
   position: relative;
   font-family: "JetBrains Mono";
 }
@@ -43,6 +42,7 @@
 }
 
 .card_shadow {
+  display: flex;
   position: absolute;
   height: 95%;
   margin-left: 2rem;

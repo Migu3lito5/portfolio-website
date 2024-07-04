@@ -1,0 +1,24 @@
+.container {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  animation: fadeIn 0.5s ease-out;
+  border: 1px solid black;
+}
+
+.popup {
+  font-size: 0.7em;
+  color: #333;
+  padding: 0.5rem 3rem;
+
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

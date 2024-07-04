@@ -5,6 +5,8 @@ import SimpleContent from '@/components/SimpleContent';
 import TripleContent from '@/components/TripleContent';
 import styles from '@/styles/pagecontent.module.css';
 import CustomCursor from './CustomCursor';
+import Contact from '@/components/Contact';
+import Popup from '@/components/Popup';
 
 const PageContent = () => {
   return (
@@ -14,6 +16,9 @@ const PageContent = () => {
       </Element>
       <Element name="projects">
         <TripleContent />
+      </Element>
+      <Element name="contact">
+        <Contact />
       </Element>
     </div>
   );
