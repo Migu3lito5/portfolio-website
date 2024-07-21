@@ -9,7 +9,7 @@ export default function ClickableImageLinks({image, link, title, width, height, 
       <Image
           src={image}
           width={width}
-          height={height}
+          height={height} 
         />
       </a>
     </div>
