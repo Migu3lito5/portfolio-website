@@ -1,19 +1,25 @@
 .container {
-  min-height: 325px;
-  width: 600px;
   position: relative;
   font-family: "JetBrains Mono";
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .card {
-  position: absolute;
+  order: 1;
+  position: relative;
   display: flex;
   flex-direction: column;
   background-color: #222222e1;
-  height: 95%;
   margin-top: 2rem;
   margin-right: 2rem;
-  z-index: 2;
+  height: 325px;
+  max-width: 600px;
+  z-index: 6;
   opacity: 1;
   border: white 1px solid;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -42,14 +48,14 @@
 }
 
 .card_shadow {
-  display: flex;
-  position: absolute;
-  height: 95%;
+  order: 0;
   margin-left: 2rem;
   margin-bottom: 2rem;
-  top: 0;
-  right: 0;
+  height: 325px;
+  max-width: 600px;
+  position: absolute;
   bottom: 0;
+  right: 0;
   left: 0;
   z-index: 1;
   background-color: #333;
@@ -76,3 +82,13 @@
   border-radius: 4px;
   transform: background 2s;
 }
+
+@media (max-width: 900px) {
+  .container {
+    margin: 0;
+  }
+
+}
+
+
+
